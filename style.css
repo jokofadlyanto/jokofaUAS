@@ -1,0 +1,193 @@
+body{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: 'roboto' sans-serif;
+	background: #e1d8d9;
+}
+.foto img {
+	width :60px;
+	z-index: 999;
+	position: absolute;
+	border-radius: 50%;
+	margin-left: 70px;
+	margin-top: 10px;
+}
+* {
+	box-sizing: border-box;
+}
+#sidebar {
+	background: #191516;
+	width: 200px;
+	padding-top: 100px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+nav a {
+	display: block;
+	color: #e1d8d9;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 300;
+	transition: all 0.3s ease-in-out;
+}
+nav a:hover {
+	background: #121010;
+	border-left: 5px solid green;
+	padding: 15px 30px 15px 25px;
+}
+nav a.active {
+	background: #121010;
+	border-left: 5px solid green;
+	padding: 15px 30px 15px 25px;
+}
+nav a i {
+	color: #e1d8d9;
+	font-size: 1.4rem;
+	margin-right: 0.8rem;
+	display: inline-block;
+	width: 30px;
+	position: relative;
+	top: 2px;
+}
+nav a.active i {
+	color: green;
+}
+
+header {
+	margin-left: 200px;
+	padding: 10px;
+}
+.search img{
+	position: relative;
+	margin-bottom: -6px;
+}
+.search input{
+	background: transparent;
+	border: 2px solid #546773 ;
+	font-size: 1rem;
+	padding: 5px;
+	font-weight:100;
+	width: 48%; 
+}
+header a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding: 3px;
+}
+header .user-area {
+	float: right;
+	position: relative;
+	margin-top: -30px;
+	margin-right: 5px; 
+}
+header a:hover {
+	color: green;
+}
+header .user-area img {
+	width: 18px;
+}
+/* dasbboard */
+.dashboard {
+	background: #E9F1F6;
+	padding-left: 10px;
+}
+.dashboard h1 {
+	color: #1C2022;
+}
+.dashboard p {
+	color: #71797E;
+	margin-top: -6px;
+
+}
+/* card */
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column h3 {
+	text-align: center;
+}
+.column h4 {
+	text-align: center;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: red;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: green;
+}
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: blue;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* table */
+table {
+	width: 100%;
+}
+table th {
+	text-align: left;
+	background: #641178;
+	height: 40px;
+	padding-left: 10px;
+}
+table td {
+	background: #8F9798;
+	height: 37px;
+	padding-left: 10px;
+}
+
+/* copyright */
+.identitas {
+	width: 100%;
+	text-align: center;
+	background: #191516;
+	color: #fff;
+	height: 40px;
+}
+.identitas p {
+	padding-top: 10px; 
+}
+
+/*page*/
+.page {
+	border: 1px black solid;
+}
